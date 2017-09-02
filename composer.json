@@ -25,5 +25,12 @@
         "psr-4": {
             "BenDechrai\\WordpressImport\\": "tests"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BenDechrai\\WordpressImport\\WordpressImportServiceProvider"
+            ]
+        }
     }
 }
