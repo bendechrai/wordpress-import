@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "WordpressImporter\\": "src"
+            "BenDechrai\\WordpressImport\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "WordpressImporter\\": "tests"
+            "BenDechrai\\WordpressImport\\": "tests"
         }
     }
 }
