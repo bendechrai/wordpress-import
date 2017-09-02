@@ -1,6 +1,6 @@
 <?php
 
-namespace Bendechrai\WordpressImport\Console;
+namespace BenDechrai\WordpressImport\Command;
 
 use Illuminate\Console\Command;
 
