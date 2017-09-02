@@ -1,0 +1,15 @@
+language: php
+
+php:
+  - 7.0
+  - 7.1
+
+install:
+  - composer self-update
+  - composer install
+
+script:
+  - make build
+
+after_script:
+  - vendor/bin/test-reporter
